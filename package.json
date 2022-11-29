@@ -1,0 +1,17 @@
+{
+  "name": "Alami",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:execution": "cypress run --spec cypress/e2e/features/search.feature,cypress/e2e/features/details.feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.11.0",
+    "@badeball/cypress-cucumber-preprocessor": "^14.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5"
+  }
+}
